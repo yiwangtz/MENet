@@ -11,9 +11,31 @@
 用一两段话介绍这个项目以及它能做些什么。
 
 ![](https://github.com/dbader/readme-template/raw/master/header.png)
+-->
 
-## Getting Started 使用指南
+## Getting Started 
+coming soon
 
+
+## Saliency maps 
+- saliency maps: [Baidu 提取码:j9wk]( https://pan.baidu.com/s/1PqS17pX1y1GEqPC7I3NdbQ?pwd=j9wk) 
+
+
+
+## Citation
+```
+@InProceedings{MENet,
+    author    = {Yi Wang, Ruili Wang, Xin Fan, Tianzhu Wang, Xiangjian He},
+    title     = {Pixels, Regions, and Objects: Multiple Enhancement for Salient Object Detection},
+    booktitle = {CVPR},
+    year      = {2023}
+}
+```
+
+
+
+
+<!---
 项目使用条件、如何安装部署、怎样运行使用以及使用演示
 
 ### Prerequisites 项目使用条件

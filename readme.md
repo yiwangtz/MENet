@@ -1,6 +1,8 @@
 # Pixels, Regions, and Objects: Multiple Enhancement for Salient Object Detection
 
-> 简单描述这个项目是什么。
+> A majority of salient object detection (SOD) methods interpret images from the perspective of pixels and use a simple end-to-end training method, which leads to incomplete and blurred boundaries of targets in complex scenes. To address this issue, we propose a novel Multiple Enhancement Network (MENet) to simulate the ability of humans to gradually enhance the cognition of complex targets repeatedly from the perspective of pixels, regions, and objects of images. A new multilevel hybrid loss is first designed to compare prediction and ground truth at pixel-, region-, and object-levels. Then, a flexible multiscale feature enhancement module (ME-Module) is proposed to gradually aggregate and refine features through the atrous spatial pyramid pooling and global-local attention. ME-Module can output high- or low-level features by changing the size order of the input feature sequence. Then, two ME-Modules are used as the core of the dual-branch decoder of the MENet to refine salient features by an iterative enhancement strategy that aggregates high- and low-level gradient boundary features and adaptive inner body features alternately, under the supervision of the proposed multilevel hybrid loss. Comprehensive evaluations on six challenging benchmarks show that MENet achieves state-of-the-art results.
+
+<!---
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
@@ -70,3 +72,4 @@ Please read [CONTRIBUTING.md](#) for details on our code of conduct, and the pro
 ## License 授权协议
 
 这个项目 MIT 协议， 请点击 [LICENSE.md](LICENSE.md) 了解更多细节。
+-->

@@ -37,7 +37,7 @@ at https://github.com/yiwangtz/MENet.
 ### Saliency Map
 
 saliency maps: [Baidu key:j9wk]( https://pan.baidu.com/s/1PqS17pX1y1GEqPC7I3NdbQ?pwd=j9wk) 
-[Google Drive:](https://drive.google.com/file/d/13CyUZMTMq20no9XSJ96PVWhOYAdSStwU/view?usp=sharing)
+[Google Drive](https://drive.google.com/file/d/13CyUZMTMq20no9XSJ96PVWhOYAdSStwU/view?usp=sharing)
 
 
 

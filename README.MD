@@ -4,7 +4,6 @@ CVPR 2023
 [[paper link](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Pixels_Regions_and_Objects_Multiple_Enhancement_for_Salient_Object_Detection_CVPR_2023_paper.html)]
 
 
-
 ### Overview
 
 
@@ -32,98 +31,16 @@ results. Both the codes and results are publicly available
 at https://github.com/yiwangtz/MENet.
 
 
-## Usage
-### Installation
-```
-conda create -n menet python=3.8
-conda activate menet
 
-pip install torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
-pip install opencv-python==4.7.0.72
-pip install matplotlib==3.7.1
-pip install tensorboard==2.12.1
-pip install setuptools==59.5.0
-pip install timm==0.8.21.dev0
-pip install xlwt
-
-git clone https://github.com/NVIDIA/apex
-cd apex
-pip install -v --disable-pip-version-check --no-cache-dir ./
-```
-
-### Data Preparation
-Download the following datasets and unzip them into `data` folder
-- [DUTS](http://saliencydetection.net/duts/)
-- [ECSSD](http://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html)
-- [HKU-IS](https://i.cs.hku.hk/~gbli/deep_saliency.html)
-- [DUT-OMRON](http://saliencydetection.net/dut-omron/)
-- [PASCAL-S](http://cbi.gatech.edu/salobj/)
- 
-The overall file structure is as follows:
-```shell
-data
-├── DUTS
-│   ├── image
-│   ├── mask
-│   ├── train.txt
-├── DUT-OMRON
-│   ├── image
-│   ├── mask
-│   ├── test.txt
-├── DUTS-TE
-│   ├── image
-│   ├── mask
-│   ├── test.txt
-├── ECSSD
-│   ├── image
-│   ├── mask
-│   ├── test.txt
-├── HKU-IS
-│   ├── image
-│   ├── mask
-│   ├── test.txt
-├── PASCAL-S
-│   ├── image
-│   ├── mask
-│   ├── test.txt
-```
-
-
-
-### Training & Evaluation
-- Generate the ground truth into gradient , which will be saved into `data/DUTS/gradient
-```shell
-    python generate_gradient.py
-```
-- Training
-```shell
-    python train_MENet.py
-```
-- Testing
-```shell
-    python test_run_all.py
-    python plot_excel_choose_model.py
-```
-
-### Trained Model
-You can download the trained model :[Baidu key:ibjk]( https://pan.baidu.com/s/1Qk8uGKK-m2aVk09hH0UgeA?pwd=ibjk) 
 
 
 ### Saliency Map
 
 saliency maps: [Baidu key:j9wk]( https://pan.baidu.com/s/1PqS17pX1y1GEqPC7I3NdbQ?pwd=j9wk) 
+[Google Drive:](https://drive.google.com/file/d/13CyUZMTMq20no9XSJ96PVWhOYAdSStwU/view?usp=sharing)
 
 
 
 
-If you find this repo useful, please cite:
-```
-@inproceedings{wang2023pixels,
-  title={Pixels, Regions, and Objects: Multiple Enhancement for Salient Object Detection},
-  author={Wang, Yi and Wang, Ruili and Fan, Xin and Wang, Tianzhu and He, Xiangjian},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={10031--10040},
-  year={2023}
-}
-```
+
 
